@@ -30,6 +30,9 @@ while is_race_on:
         random_distance = random.randint(0, 10)
         turtle.forward(random_distance)
 
-
+if winner == user_bet:
+    print(f"You've won! The {winner} turtle is the winner!")
+else:
+    print(f"You've lost! The {winner} turtle is the winner!")
 
 screen.exitonclick()
