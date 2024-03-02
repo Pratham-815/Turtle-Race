@@ -1,1 +1,1 @@
-# This repository contains the python code for the turtle race
+# This repository contains the python code for the turtle race. In this game, the user is asked to make a bet on any of the turtle and then the race begins. If the turtle on whom user had bet wins, the user wins. Else the user looses
