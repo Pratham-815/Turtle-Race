@@ -22,6 +22,14 @@ if user_bet:
     is_race_on = True
 
 while is_race_on:
-    pass
+    
+    for turtle in all_turtles:
+        if turtle.xcor() > 215:
+            winner = turtle.pencolor()
+            is_race_on = False
+        random_distance = random.randint(0, 10)
+        turtle.forward(random_distance)
+
+
 
 screen.exitonclick()
